@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+deepfloyd-if = "*"
+xformers = "*"
+huggingface-hub = "*"
+python-dotenv = "*"
+diffusers = "*"
+accelerate = "*"
+transformers = ">=4.27.0.dev0"
+safetensors = "*"
+sentencepiece = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
